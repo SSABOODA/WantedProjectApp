@@ -63,8 +63,6 @@ final class MainTableViewCell: UITableViewCell {
         
         imageTagList = [4,3,2,1,0]
         
-        print(mtvImageView.tag)
-        
         mtvImageView.image = basicImage
         
         imageDataManager.setImageArray()
